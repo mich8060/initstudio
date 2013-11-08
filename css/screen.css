@@ -323,7 +323,7 @@ article {
 
 header {
 	background:#fff;
-	border-top:solid 5px #222;
+	border-top:solid 3px #222;
 	-webkit-box-shadow: 0 1px 0 white inset, 0 1px 10px rgba(0, 0, 0, 0.4); 
 	   -moz-box-shadow: 0 1px 0 white inset, 0 1px 10px rgba(0, 0, 0, 0.4); 
 			box-shadow: 0 1px 0 white inset, 0 1px 10px rgba(0, 0, 0, 0.4);
