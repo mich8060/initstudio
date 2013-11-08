@@ -1,2 +1,4 @@
 User-Agent: *
 Disallow: 
+
+Sitemap: http://beta.initstudio.com/sitemap.xml
