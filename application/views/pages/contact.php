@@ -17,109 +17,56 @@
 				</p>
 			</div>
 			<div class="grid_6">
-				<form class="ui-forms">
-					<div class="form-item">
+				<form method="post" action="" class="ui-forms">
+					<label class="form-item">
 						<div class="form-label">
-							Label
+							Name
 						</div>
 						<div class="form-input">
-							<input type="text" class="ui-input" />
+							<input type="text" placeholder="" name="name" class="ui-input" />
 							<div class="form-notice">Communicate Something to the user</div>
 							<div class="form-error">Communicate an error to the user</div>
 							<div class="form-warning">Communicate a warning to the user</div>
 						</div>
-					</div>
-					<div class="form-item form-item-error">
+					</label>
+					<label class="form-item">
 						<div class="form-label">
-							Label
+							Email
 						</div>
 						<div class="form-input">
-							<input type="text" class="ui-input" />
+							<input type="text" placeholder="" name="email" class="ui-input" />
 							<div class="form-notice">Communicate Something to the user</div>
 							<div class="form-error">Communicate an error to the user</div>
 							<div class="form-warning">Communicate a warning to the user</div>
 						</div>
-					</div>
-					<div class="form-item form-item-warning">
+					</label>
+					<label class="form-item">
 						<div class="form-label">
-							Label
+							Phone
 						</div>
 						<div class="form-input">
-							<input type="text" class="ui-input" />
+							<input type="text" placeholder="" name="phone" class="ui-input" />
 							<div class="form-notice">Communicate Something to the user</div>
 							<div class="form-error">Communicate an error to the user</div>
 							<div class="form-warning">Communicate a warning to the user</div>
 						</div>
-					</div>
-					<div class="form-item">
+					</label>
+					<label class="form-item">
 						<div class="form-label">
-							Label
+							Message
 						</div>
 						<div class="form-input">
-							<select class="ui-select">
-								<option value="0">Select Option</option>
-								<option value="1">Colorway &amp; Size</option>
-								<option value="2">Another just cuzasdfasdfasdf asf asf asfd asdf</option>
-							</select>
+							<textarea name="" class="ui-textarea"></textarea>
 							<div class="form-notice">Communicate Something to the user</div>
 							<div class="form-error">Communicate an error to the user</div>
 							<div class="form-warning">Communicate a warning to the user</div>
 						</div>
-					</div>
-					<div class="form-item">
-						<div class="form-label">
-							Label
-						</div>
+					</label>
+					<label class="form-item">
 						<div class="form-input">
-							<label for="gender"><input type="radio" name="gender" /> Men</label>
-							<label for="gender"><input type="radio" name="gender" /> Women</label>
-							<div class="form-notice">Communicate Something to the user</div>
-							<div class="form-error">Communicate an error to the user</div>
-							<div class="form-warning">Communicate a warning to the user</div>
+							<input type="submit" value="Send" class="ui-button" />
 						</div>
-					</div>
-					<div class="form-item">
-						<div class="form-label">
-							Label
-						</div>
-						<div class="form-input">
-							<label for="gender"><input type="checkbox" name="gender" /> Men</label>
-							<div class="form-notice">Communicate Something to the user</div>
-							<div class="form-error">Communicate an error to the user</div>
-							<div class="form-warning">Communicate a warning to the user</div>
-						</div>
-					</div>
-					<div class="form-item">
-						<div class="form-label">
-							Label
-						</div>
-						<div class="form-input">
-							<input type="file" />
-							<div class="form-notice">Communicate Something to the user</div>
-							<div class="form-error">Communicate an error to the user</div>
-							<div class="form-warning">Communicate a warning to the user</div>
-						</div>
-					</div>
-					<div class="form-item">
-						<div class="form-label">
-							Label
-						</div>
-						<div class="form-input">
-							<textarea class="ui-textarea"></textarea>
-							<div class="form-notice">Communicate Something to the user</div>
-							<div class="form-error">Communicate an error to the user</div>
-							<div class="form-warning">Communicate a warning to the user</div>
-						</div>
-					</div>
-					<div class="form-item">
-						<div class="form-label"></div>
-						<div class="form-input">
-							<a href="#" class="ui-button">Submit</a>
-							<input type="button" value="Button" />
-							<input type="submit" value="Submit" />
-							<input type="reset" value="Reset" />
-						</div>
-					</div>
+					</label>
 					<div class="clear"></div>
 				</form>
 			</div>
