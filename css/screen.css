@@ -291,7 +291,31 @@ input[type="file"]:active::before {
 .form-item-warning .form-warning{display:block;}
 
 /* User Interface - Buttons */
-.ui-button{background:#131313;background:-moz-linear-gradient(top,#4c4c4c 0%,#131313 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#4c4c4c),color-stop(100%,#131313));background:-webkit-linear-gradient(top,#4c4c4c 0%,#131313 100%);background:-o-linear-gradient(top,#4c4c4c 0%,#131313 100%);background:-ms-linear-gradient(top,#4c4c4c 0%,#131313 100%);background:linear-gradient(to bottom,#4c4c4c 0%,#131313 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c',endColorstr='#131313',GradientType=0 );-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;color:#fff;display:inline-block;font-family:'Nimbus-Sans',Helvetica,Arial,Sans-Serif;font-size:16px;font-weight:500;line-height:36px;padding:0 30px;vertical-align:bottom;-webkit-font-smoothing:subpixel-antialiased;font-smoothing:subpixel-antialiased;}
+.ui-button{
+	background:#131313;
+	background:-moz-linear-gradient(top,#4c4c4c 0%,#131313 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#4c4c4c),color-stop(100%,#131313));
+	background:-webkit-linear-gradient(top,#4c4c4c 0%,#131313 100%);
+	background:-o-linear-gradient(top,#4c4c4c 0%,#131313 100%);
+	background:-ms-linear-gradient(top,#4c4c4c 0%,#131313 100%);
+	background:linear-gradient(to bottom,#4c4c4c 0%,#131313 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c',endColorstr='#131313',GradientType=0 );
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+			border-radius:3px;
+	color:#fff;
+	display:inline-block;
+	font-family:'Nimbus-Sans',Helvetica,Arial,Sans-Serif;
+	font-size:16px;
+	font-weight:500;
+	line-height:36px;
+	margin:0;
+	padding:0 20px;
+	vertical-align:bottom;
+	-webkit-font-smoothing:subpixel-antialiased;
+	font-smoothing:subpixel-antialiased;
+	}
+	
 	.ui-button:hover{background:#131313;color:#fff;}
 	.ui-button:active{position:relative;top:1px;}
 
@@ -312,7 +336,21 @@ input[type="file"]:active::before {
 		.ui-table th span,
 		.ui-table td span { color:#999; display:block; font-size:14px; font-weight:500; }
 
+/* Pills	*/
 
+.ui-pill {
+	background:#f4f4f4;
+	-webkit-border-radius:20px;
+	   -moz-border-radius:20px;
+			border-radius:20px;
+	color:#222;
+	display:inline-block;
+	font-size:11px;
+	margin:0 1px 5px 0;
+	padding:1px 10px;
+}
+
+/* Selector */
 .ui-select {
 	background:#f7f7f7;
 	border:solid 1px #ddd;
@@ -420,12 +458,13 @@ footer {
 
 /* Pages Based Styles */
 
-.about {
+.profile {
 	background:url(../img/layout/initstudio_about_michael_stevens.jpg) no-repeat 0 30px;
-	color:#fff;
 	min-height:800px;
-	padding:60px 0;
+	padding:90px 0;
 }
+	.profile h1 { margin:0; }
+	.profile-intro { color:#fff; height:380px; }
 
 .articles {
 	padding:60px 0; 
