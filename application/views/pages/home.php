@@ -358,5 +358,17 @@
 				<div class="clear"></div>
 			</form>
 		</div>
+		<div class="grid_12">
+			<h1>Count</h1>
+			<?php
+			
+				for($x = 1; $x <= 12; $x++){
+					echo (100 / 12) * $x."<br />";
+				}
+			
+			?>
+			
+		</div>
+		<div class="clear"></div>
 	</div>
 </div>
