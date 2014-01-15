@@ -1,6 +1,6 @@
 <div class="slideshow">
-	<h1 class="lead">Hello, I'm Michael Stevens <div>UX Designer <span>&amp;</span> UI Developer</div></h1>
-	<h6 class="lead">&bull; Personal Portfolio &bull;</h6>
+	<h1 class="light">Hello, I'm Michael Stevens <div>UX Designer <span>&amp;</span> UI Developer</div></h1>
+	<h6 class="light">&bull; Personal Portfolio &bull;</h6>
 </div>
 <div class="container">
 	<div class="box-grid">
@@ -59,7 +59,7 @@
 			</p>
 		</div>
 		<div class="grid_6">
-			<h2 class="lead">Lead 2</h2>
+			<h2 class="light">Lead 2</h2>
 			<p>
 				Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit. Quisque et consequat diam, et mollis dolor. 
 				Donec placerat molestie est, ut <u>ultrices</u> arcu tempus vel. Nam accumsan eros vel gravida vestibulum. 
@@ -80,7 +80,7 @@
 			</p>
 		</div>
 		<div class="grid_6">
-			<h3 class="lead">Lead 3</h3>
+			<h3 class="light">Lead 3</h3>
 			<p>
 				Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit. Quisque et consequat diam, et mollis dolor. 
 				Donec placerat molestie est, ut <u>ultrices</u> arcu tempus vel. Nam accumsan eros vel gravida vestibulum. 
@@ -101,7 +101,7 @@
 			</p>
 		</div>
 		<div class="grid_6">
-			<h4 class="lead">Lead 4</h4>
+			<h4 class="light">Lead 4</h4>
 			<p>
 				Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit. Quisque et consequat diam, et mollis dolor. 
 				Donec placerat molestie est, ut <u>ultrices</u> arcu tempus vel. Nam accumsan eros vel gravida vestibulum. 
@@ -122,7 +122,7 @@
 			</p>
 		</div>
 		<div class="grid_6">
-			<h5 class="lead">Lead 5</h5>
+			<h5 class="light">Lead 5</h5>
 			<p>
 				Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit. Quisque et consequat diam, et mollis dolor. 
 				Donec placerat molestie est, ut <u>ultrices</u> arcu tempus vel. Nam accumsan eros vel gravida vestibulum. 
@@ -143,7 +143,7 @@
 			</p>
 		</div>
 		<div class="grid_6">
-			<h6 class="lead">Lead 6</h6>
+			<h6 class="light">Lead 6</h6>
 			<p>
 				Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit. Quisque et consequat diam, et mollis dolor. 
 				Donec placerat molestie est, ut <u>ultrices</u> arcu tempus vel. Nam accumsan eros vel gravida vestibulum. 

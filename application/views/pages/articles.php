@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="box-grid">
 			<div class="grid_8 push_2">
-				<h2>The Art of Controlling an Experience</h2>
+				<h1 class="lead">The Art of Controlling an Experience</h2>
 				<ul class="metadata">
 					<a href="#">Michael Stevens</a> |
 					<a href="#">October 22, 2013</a> |
